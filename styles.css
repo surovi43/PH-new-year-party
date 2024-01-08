@@ -143,6 +143,29 @@ button {
    border: 0;
 }
 
+/* Portfolio section */
+.portfolio-section > h4 {
+   font-size: 1.5rem;
+   font-weight: normal;
+   margin-bottom: 1rem;
+}
+
+.portfolio-section > h1 {
+   font-size: 3rem;
+   margin-bottom: 1.5rem;
+}
+
+.portfolio-section > p {
+   line-height: 1.5;
+   max-width: 60rem;
+   margin-bottom: 3rem;
+}
+
+.portfolio-section > .products {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.5rem;
+}
 /* ============================ */
 /* atomic css */
 
