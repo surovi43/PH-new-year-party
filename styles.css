@@ -10,6 +10,7 @@ select,
 button {
    font-family: "Open Sans", sans-serif;
    font-size: 1rem;
+   line-height: 1;
 }
 
 .main-content {
@@ -39,7 +40,6 @@ button {
 
 .banner-subtitle {
    color: #fff;
-   text-align: center;
    font-size: 2rem;
    font-weight: normal;
    line-height: normal;
@@ -47,7 +47,40 @@ button {
 
 .banner-title {
    color: #fff;
-   text-align: center;
    font-size: 4.5rem;
    max-width: 40.625rem;
+}
+
+/* advertise section */
+.advertise {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.advertise > h1 {
+   font-size: 5.5rem;
+}
+
+.advertise > h3 {
+   font-size: 3rem;
+   margin-bottom: 2rem;
+}
+
+.advertise > p {
+   margin-top: 2rem;
+   margin-bottom: 0.5rem;
+}
+.advertise > img {
+   width: 50rem;
+   height: auto;
+}
+
+/* atomic css */
+
+.text-center {
+   text-align: center;
+}
+.red-text {
+   color: #ff0000;
 }
