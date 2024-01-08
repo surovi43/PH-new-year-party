@@ -11,3 +11,43 @@ button {
    font-family: "Open Sans", sans-serif;
    font-size: 1rem;
 }
+
+.main-content {
+   max-width: 1280px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 7.5rem;
+}
+
+/* banner section */
+
+.banner {
+   margin-top: 3.125rem;
+   height: 37.5rem;
+   border-radius: 1rem;
+   background-image: linear-gradient(180deg, #070211, #07021100 100%),
+      url("resources/Banner\ Image.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.banner-subtitle {
+   color: #fff;
+   text-align: center;
+   font-size: 2rem;
+   font-weight: normal;
+   line-height: normal;
+}
+
+.banner-title {
+   color: #fff;
+   text-align: center;
+   font-size: 4.5rem;
+   max-width: 40.625rem;
+}
