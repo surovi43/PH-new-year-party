@@ -143,6 +143,46 @@ button {
    border: 0;
 }
 
+/* round section */
+.round-section {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 3rem;
+   align-items: center;
+}
+
+.round-section > .circle {
+   border: 0.75rem solid #ff0000;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem;
+}
+
+.round-section > .left > h1 {
+   font-size: 3rem;
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+.round-section > .left > p {
+   line-height: 1.5;
+}
+
+.round-section > .left > h4 {
+   font-weight: normal;
+   font-size: 1.5rem;
+}
+
+.round-section > .right > h2 {
+   font-size: 3rem;
+}
+.round-section > .right > p {
+   line-height: 1.5;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
 /* discount section */
 
 .discount-section > .discount-texts > h1 {
