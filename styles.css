@@ -251,6 +251,16 @@ button {
    gap: 1.5rem;
 }
 
+.portfolio-section > .products > .product {
+   transition: all;
+   transition-duration: 150ms;
+   border-radius: 1rem;
+}
+.portfolio-section > .products > .product:hover {
+   transform: scale(1.05);
+   box-shadow: 8px 8px 8px #4646464d;
+}
+
 /* Newsletter Section */
 .newsletter-section {
    background-color: rgba(255, 0, 0, 0.05);
