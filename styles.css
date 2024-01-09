@@ -70,7 +70,9 @@ button {
 .advertise > p {
    margin-top: 2rem;
    margin-bottom: 0.5rem;
+   font-size: 1.5rem;
 }
+
 .advertise > img {
    width: 50rem;
    height: auto;
@@ -127,6 +129,7 @@ button {
    font-weight: normal;
    font-size: 2rem;
 }
+
 .schedule-section > .time {
    display: flex;
    flex-direction: column;
@@ -165,6 +168,7 @@ button {
    margin-top: 1rem;
    margin-bottom: 1.5rem;
 }
+
 .round-section > .left > p {
    line-height: 1.5;
 }
@@ -177,6 +181,7 @@ button {
 .round-section > .right > h2 {
    font-size: 3rem;
 }
+
 .round-section > .right > p {
    line-height: 1.5;
    margin-top: 1rem;
@@ -189,6 +194,11 @@ button {
    font-size: 4.5rem;
    margin-top: 1rem;
    margin-bottom: 2rem;
+}
+
+.discount-section > .discount-texts > h4 {
+   font-size: 1.5rem;
+   font-weight: normal;
 }
 
 .discount-section > .discount-texts > p {
