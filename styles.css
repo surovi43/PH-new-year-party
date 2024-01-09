@@ -143,6 +143,40 @@ button {
    border: 0;
 }
 
+/* discount section */
+
+.discount-section > .discount-texts > h1 {
+   font-size: 4.5rem;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
+.discount-section > .discount-texts > p {
+   line-height: 1.5;
+   margin: 0 auto 4rem;
+   max-width: 66.75rem;
+}
+
+.discount-images {
+   display: grid;
+   justify-items: end;
+}
+
+.discount-images .fifty-discount {
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   left: 0;
+   height: 13.75rem;
+   width: 13.75rem;
+}
+
+.discount-images .giftbox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+
 /* Portfolio section */
 .portfolio-section > h4 {
    font-size: 1.5rem;
@@ -269,6 +303,9 @@ button {
 
 /* ============================ */
 /* atomic css */
+.relative {
+   position: relative;
+}
 
 .text-center {
    text-align: center;
